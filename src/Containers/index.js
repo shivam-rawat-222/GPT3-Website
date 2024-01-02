@@ -1,0 +1,5 @@
+export { default as blog } from "./Blog/blog"
+export { default as footer } from "./Footer/footer"
+export { default as header } from "./Header/header"
+export { default as possibility } from "./Possibility/possibility"
+export {default as wwhatgpt3} from "./WhatGPT3/whatgpt3"

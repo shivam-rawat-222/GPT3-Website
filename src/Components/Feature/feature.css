@@ -1,0 +1,127 @@
+.feature-outer {
+
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3rem;
+
+}
+
+.feature-inner {
+
+    height: 620px;
+    width: 1200px;
+    display: flex;
+
+}
+
+.feature-left-container {
+    width: 40%;
+
+    height: 100%;
+}
+
+
+
+.feature-left-container-adver {
+    color: white;
+    color: #FF8A71;
+    font-family: var(--font);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 30px;
+    padding-top: 3rem;
+    padding-left: 1rem;
+
+
+
+
+}
+
+.feature-left-container-quote text {
+    color: #FFF;
+    font-family: var(--font);
+    font-size: 34px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 35px;
+    background: linear-gradient(90deg, rgba(149, 157, 255, 0.6) 0%, rgba(255, 148, 148, 1) 54%, rgba(255, 111, 111, 1) 100%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: block;
+    padding: 2rem 2rem 0rem 1rem;
+
+
+}
+
+.feature-right-container {
+
+    width: 60%;
+    height: 100%;
+    display: grid;
+    color: white;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+
+
+
+}
+
+
+
+#point1 {
+    grid-column-start: 1;
+    grid-column-end: 2;
+
+
+}
+
+#point1,
+#point2,
+#point3,
+#point4 {
+
+    color: #FFF;
+    font-family: var(--font);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+    /* 133.333% */
+    letter-spacing: -0.72px;
+    padding-top: 3rem;
+    padding-left: 6rem;
+
+}
+
+#point1 text,
+#point2 text,
+#point3 text,
+#point4 text {
+    width: 182px;
+
+    display: block;
+
+
+}
+
+#point1-text text,
+#point2-text text,
+#point3-text text,
+#point4-text text {
+    width: 334px;
+
+    display: block;
+    margin-top: 3rem;
+    color: #81AFDD;
+    font-family: var(--font);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    /* 171.429% */
+
+
+}

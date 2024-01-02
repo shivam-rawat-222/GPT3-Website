@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+
+}
+
+body {
+  background: var(--bgcolor);
+  height: 100%;
+  width: 100%;
+
+
+}
+
+a {
+  text-decoration: none;
+  color: unset;
+
+
+}
+
+.gradient-bg {
+
+  width: full;
+  background: radial-gradient(ellipse at 0% 0%, rgba(0, 40, 83, 1) 0%, rgba(0, 40, 83, 1) 0%, rgba(4, 12, 24, 1) 100%);
+}
